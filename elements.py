@@ -12,8 +12,6 @@ class Elements():
         pg.draw.rect(surface, color, coords, 2)
 
 
-
-
 class Empty(Elements):
     def __init__(self) -> None:
         super().__init__()
